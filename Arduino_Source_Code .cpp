@@ -1,5 +1,6 @@
 /*
 Abhishek CHowdhury @ LinxAS - STEMCELL demo code
+sept 10, change analog pin config 
 */
 
 #include <Servo.h> 
@@ -11,7 +12,7 @@ int pos = 0;
 
 void setup() { 
 
-    myservo.attach(9); 
+    myservo.attach(11); 
 
 } 
 
